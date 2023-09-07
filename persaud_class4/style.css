@@ -1,0 +1,51 @@
+*{box-sizing: border-box}
+.title{
+    background-color: blueviolet;
+    color: aqua;
+    padding: 1em;
+    text-align: center;
+}
+.img1, .img2, .img3, .img4{
+    width: 45%;
+    margin: 2%;
+}
+
+.img1{
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px grey;
+}
+
+.img2{
+    border-radius: 50%;
+}
+
+.img3{
+    border: salmon 10px inset;
+    padding: 2em;
+    background-color: burlywood;
+}
+
+.img4{
+    box-shadow: 0px 0px 5px 2px greenyellow;
+}
+
+.img5,.img6{
+    width:60%;
+    margin:3%;
+}
+
+.img5{
+    border-radius: 30px;
+    border: orange 5px inset;
+    padding: 3em;
+}
+
+.img6{
+    box-shadow: 10px 10px 14px;
+border-radius: 20px;
+}
+
+.img5{
+    box-shadow: 10px 10px 14px;
+border-radius: 20px;
+}
