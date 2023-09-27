@@ -1,0 +1,119 @@
+*{box-sizing: border-box;}
+.title{
+    text-align: center;
+    color: rgb(43, 226, 125);
+}
+.subtitle{
+    background: aqua;
+    padding:1em;
+}
+.img_container{
+    width: 80%;
+    padding: 1em;
+    margin: 2% auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.2em;
+}
+img{
+    width: 500px;
+    height: 500px;
+    display: block;
+
+}
+.img1{
+    filter: invert(100);
+}
+.text1{
+    position: absolute;
+    bottom: 10%;
+    left: 15%;
+    background-color: rgba(73, 20, 220, 0.5);
+    border: 5px ridge purple;
+    font-size: 25px;
+    padding: 4.4em;
+    text-align: center;
+    color: orange;
+}
+
+.p1{
+
+    color: white;
+    position: absolute;
+    bottom: 15%;
+    left: 16%;
+    font-size: 14px;
+
+}
+.img2{
+    border: 10px solid salmon;
+    filter: blur(10px);
+}
+.text2{
+    position: absolute;
+    bottom: 40%;
+    left: 8%;
+    background-color: rgb(162, 42, 42, 0.3);
+    font-size: 20px;
+    color: yellow;
+    padding: 4em;
+    box-shadow: inset 5px 5px 5px;
+    border: 2px solid salmon;
+}
+
+.p2{
+    margin-bottom: 3em;
+    position: absolute;
+    bottom: 45%;
+    left: 19%;
+    color: yellow;
+    font-size: 14px;
+}
+
+
+.hyperlink1{
+    position: absolute;
+    bottom: 45%;
+    left: 18%;
+    color: blue;
+    padding: 0.5em;
+}
+
+.hyperlink1:hover{
+    color: brown;
+    background-color: pink;
+    font-weight: bolder;
+}
+.img3{
+    filter: sepia(100%);
+}
+.text3{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    color: blue;
+}
+.text4{
+    position: absolute;
+    bottom: 20%;
+    left: 25%;
+    color: blue;
+    text-align: center;
+    width: 100px;
+}
+.text5{
+    position: absolute;
+    bottom: 30%;
+    left: 5%;
+    color: blue;
+    width: 200px;
+    text-align: center;
+}
+.text6{
+    position: absolute;
+    bottom: 45%;
+    color: blue;
+    left: 25%;
+    font-weight: bold;
+
+}
