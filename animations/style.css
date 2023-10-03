@@ -1,0 +1,87 @@
+*{box-sizing: border-box;}
+html{scroll-behavior: smooth;}
+
+.title{
+    text-align: center;
+    color: aqua;
+    font-family: georgia;
+    transition: ease-in-out 1s;
+
+}
+
+.title:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    text-shadow: 1px 1px 5px black;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.imgcontainer1, .imgcontainer2{
+    width: 200px;
+    height: 200px;
+    border: ridge 12px orange;
+    transition: ease 2s;
+    overflow: hidden;
+    margin: 5em;
+}
+
+.imgcontainer1:hover{
+    border-radius: 50%;
+    border: dotted 10px green;
+    transform: translateX(500px);
+}
+
+.imgcontainer2:hover{
+    border-radius: 50%;
+    border: dashed 10px gray;
+    transform: scale(1.6);
+}
+
+.card{
+    width: 30%;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px orange;
+    overflow: hidden;
+    margin: 5em;
+    transition: ease 300ms;
+
+}
+
+.cardmsg{
+    position: absolute;
+    top: 30%;
+    left: 22%;
+    text-align: center;
+    right: 15%;
+    color: red;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 6px 3px brown;
+    width: 31%;
+}
+
+.card:hover .cardmsg{
+    color: blue;
+    text-shadow: 3px 3px 5px aqua;
+}
+
+/*-----class activity-----*/
+
+.imgcontainer3{
+
+width: 40%;
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.card2{
+    
+}
