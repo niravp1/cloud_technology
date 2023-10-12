@@ -1,0 +1,22 @@
+*{box-sizing: border-box;}
+
+.title{
+    background-color: orange;
+    text-align: center;
+}
+
+.container{
+    width: 140%;
+    height: 80%;
+    background-color: cadetblue;
+    margin-left: 1%;
+}
+
+.introp1{
+    word-wrap: break-word;
+}
+.img1{
+width: 40%;
+border-radius: 2em;
+margin: 2em 1em 1em auto;
+}
