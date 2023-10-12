@@ -1,0 +1,38 @@
+*{box-sizing: border-box;}
+
+.title{
+    background-color: orange;
+    text-align: center;
+}
+
+.container{
+    width: 70%;
+    height: 80%;
+    background-color: cadetblue;
+   
+    flex-wrap: wrap;
+}
+
+.introp1{
+    font-size: 24px;
+}
+
+.img1{
+    margin left: 10%;
+}
+img{
+    width: 700px;
+    height: 400px;
+    display: block;
+}
+.container{
+    
+}
+
+.navTabs{
+    background-color: gray;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+
+}
