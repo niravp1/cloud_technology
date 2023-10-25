@@ -91,6 +91,19 @@ img{
     background-color: rgb(138, 138, 125);
     overflow: hidden;
 }
+
+.attractions2{
+
+    width: 29%;
+    height: 20%;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 0.2em;
+    margin: 2%;
+    position: relative;
+    display: block;
+    background-color: blue(138, 138, 125);
+    overflow: hidden;
+}
 .img2{
     transition: transform  1s;
    
@@ -115,6 +128,11 @@ img{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.newtitle{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: green;
+    text-align: center;
+}
 .img2:hover{
     transform: scale(1.1);
     filter: invert(100%);
@@ -133,6 +151,21 @@ img{
     padding: 1em;
     color: white;
     background-color: brown;
+    display: block;
+    left: 0%;
+    right: 0%;
+    
+    text-align: center;
+
+}
+
+
+.link2{
+    position: absolute;
+     bottom: 0%;
+    padding: 1em;
+    color: white;
+    background-color: black;
     display: block;
     left: 0%;
     right: 0%;
@@ -183,6 +216,12 @@ th {
     text-align: center;
     font-size: 30px;
     
+}
+
+.george{
+    text-align: center;
+    font-size: 30px;
+    color: orange;
 }
 footer{
     background-color: yellow;
