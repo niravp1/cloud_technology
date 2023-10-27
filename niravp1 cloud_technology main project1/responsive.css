@@ -1,0 +1,25 @@
+@media only screen and (max-width:100px){
+    .finland{width: 1000%;}
+    .container{width: 100%;}
+
+}
+
+@media only screen and (max-width:900px){
+    .container{width: 100%;}
+    .list{width: 60%;
+    margin: 2% auto;}
+    .list{
+    width: 32.9%;
+     padding: 1em 0em ;
+    text-align: center;
+    }
+}
+
+@media only screen and (max-width:650px){
+
+.finland{width: 31% ;}
+.list{width: 80%;}
+.finland{font-size: 1.5em}
+
+
+}
