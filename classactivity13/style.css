@@ -1,0 +1,44 @@
+
+.v1{
+    position: relative;
+    bottom: 100px;
+    left: 1100px;
+   
+}
+.v2{
+    position: relative;
+    bottom: 150px;
+    left: 530px;
+}
+
+.v3{
+    position: relative;
+    left: 45%;
+    top: 80px;
+    
+}
+
+.img1{
+    position: relative;
+    float: left;
+}
+
+.text{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+
+.title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.img1{
+    top: 55px;
+    position: relative;
+}
+
+.footer{
+    background-color: yellow;
+    text-align: center;
+}
