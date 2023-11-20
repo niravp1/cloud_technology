@@ -1,0 +1,158 @@
+body {
+    font-family: 'Roboto', sans-serif;
+      background-color: #f8f9fa;
+      color: #444;
+}
+
+.animation-container {
+text-align: center;
+}
+
+.animated-text {
+font-size: 4em;
+position: relative;
+animation: drawIn 3s forwards;
+}
+
+.header-section {
+    background-size: contain;
+    background-position: center;
+    color: pink;
+    padding: 100px 0;
+    text-align: center;}
+
+@keyframes drawIn {
+0% {
+opacity: 0;
+letter-spacing: 2em;
+}
+100% {
+opacity: 1;
+letter-spacing: normal;
+}
+}
+.card-body{
+    background-color: blanchedalmond;
+}
+.card {
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+border-radius: 0px;
+}
+.c2{
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.4);
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    
+        transform: scale(1.05); /* Scale the card on hover */
+  
+  }
+
+ 
+
+  .card-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  .card-text {
+    font-size: 1.1rem;
+    color: #666;
+  }
+
+ .btn-primary{
+    transition: background-color 0.3s ease-in-out;
+ }
+
+  .btn-primary:hover {
+   background-color: red;
+   transition: background-0.3s ease-in-out;
+   
+  }
+
+  .custom-modal-dialog {
+    max-width: 700px;
+  }
+  
+  .custom-modal-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribute space between elements */
+    padding: 20px; /* Adjust padding as needed */
+  }
+  
+  .modal-image {
+    flex: 1;
+    margin-right: 20px; /* Adjust as needed for spacing between image and text */
+  }
+  
+  .modal-image img {
+    width: 100%;
+  }
+  
+  .modal-text {
+    flex: 1;
+  }
+  
+  .btn-buy {
+   position: absolute;
+   bottom: 40px;
+   right: 125px;
+}
+  
+  .modal-title2 {
+    position: absolute;
+    top: 20px;
+    left: 430px;
+  }
+
+  .purchase-banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    display: none;
+    z-index: 9999;
+    transition: top 0.3s ease-in-out;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icon img {
+    width: 200px; /* Set your preferred size */
+    height: 200px; /* Set your preferred size */
+}
+
+.social-icon:hover {
+    transform: scale(1.2); 
+}
+
+.btn-close {
+  background-color: red; 
+}
+
+.joer{
+  background-color: yellow;
+}
+
+.modal-title3{
+  position: absolute;
+  left: 280px;
+  top: 40px
+}

@@ -1,0 +1,19 @@
+8 products total
+
+intenral and external links using both images  text
+
+lists 
+
+responsive
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <div class="container">
+      <a class="navbar-brand" href="#">Home</a>
+      <a class="navbar-brand ms-auto" href="#p">Products</a>
+      <a class="navbar-brand ms-auto" href="#s">Contacts</a>
+    </div>
+  </nav>
