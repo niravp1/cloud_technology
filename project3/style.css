@@ -1,0 +1,16 @@
+body{
+    background-color: beige
+}
+.content-wrapper {
+    overflow: ; /* Clear floats */
+}
+
+.text-content {
+    width: 30%; /* Adjust the width of the text content */
+    float: left;
+}
+
+.image-content {
+    width: 40%; /* Adjust the width of the image content */
+    float: right;
+}
