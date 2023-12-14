@@ -1,0 +1,81 @@
+/* Custom Styles */
+body {
+    background-color: #000; /* Set the background color to black */
+}
+
+/* Navbar styles (optional customization) */
+
+
+.navbar-toggler-icon {
+    background-color: #fff; /* Change the navbar toggler color */
+}
+
+.navbar-nav .nav-link {
+    color: #fff; /* Change the navbar links color */
+}
+
+/* Main content styles */
+.bg-dark.text-white {
+    background-color: #000; /* Change the main content background color */
+    color: #fff; /* Change the main content text color */
+}
+
+@font-face {
+    font-family: 'MingLiU-ExtB';
+    src: url('fonts/MingLiU-ExtB.ttf') format('truetype');
+   
+}
+
+/* Use the font-family as needed */
+body {
+    font-family: 'MingLiU-ExtB', sans-serif;
+}
+
+.description{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+        font-size: 18px;
+        line-height: 1.6;
+        max-width: 400px; /* Set a maximum width for the description */
+        padding-left: 20px; /* Create an indentation using padding */
+
+}
+.george {
+    width: 60%;
+    position: relative;
+    /* Align to the far right */
+    top: 50%;
+    transform: translateY(20%);
+    transform: translateX(66%);
+  }
+  
+  @keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.title {
+    font-size: 80px;
+    opacity: 0;
+    animation: fadeIn 4s ease forwards;
+}
+
+.container {
+    max-width: 100px; /* Set a max-width if needed */
+}
+
+
+
+
+@media (max-width: 767px) {
+    .description {
+      max-width: 100%; /* On smaller screens, allow the text to take full width */
+      padding-left: 0; /* Remove indentation */
+    }
+  }
