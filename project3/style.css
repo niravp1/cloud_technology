@@ -1,16 +1,162 @@
-body{
-    background-color: beige
+*{box-sizing: border-box;}
+
+html{
+    scroll-behavior: smooth;
 }
-.content-wrapper {
-    overflow: ; /* Clear floats */
+body {
+    background-color: black; /* Set the background color to black */
 }
 
-.text-content {
-    width: 30%; /* Adjust the width of the text content */
+/* Navbar styles (optional customization) */
+
+.custom-navbar{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.navbar-toggler-icon {
+    background-color: #fff; /* Change the navbar toggler color */
+    position: absolute;
+}
+
+.navbar-nav .nav-link {
+    color: #fff; /* Change the navbar links color */
+    position: relative;
+}
+
+/* Main content styles */
+.bg-dark.text-white {
+    background-color: #000; /* Change the main content background color */
+    color: #fff; /* Change the main content text color */
+}
+
+@font-face {
+    font-family: 'MingLiU-ExtB';
+    src: url('fonts/MingLiU-ExtB.ttf') format('truetype');
+   
+}
+
+/* Use the font-family as needed */
+body {
+    font-family: 'MingLiU-ExtB', sans-serif;
+}
+
+.description{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+        font-size: 18px;
+        line-height: 1.6;
+        max-width: 400px; /* Set a maximum width for the description */
+        padding-left: 20px; /* Create an indentation using padding */
+
+}
+.george {
+    width: 60%;
+    /* Align to the far right */
+    top: 30%;
+    left: 35%;
+    margin-bottom: 40px;
+    
+  }
+  
+  @keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.title {
+    font-size: 80px;
+    opacity: 0;
+    animation: fadeIn 8s ease forwards;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.card-text{
+    font-size: 20px;
+}
+
+.card img {
+    transition: transform 0.5s ease;
+  }
+
+  .card .img-grayscale:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+  }
+
+  .card .img-sepia:hover {
+    filter: sepia(100%);
+    transform: scale(1.1);
+  }
+
+  .card {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .peter {
+    border-radius: 10px
+  }
+
+#contact{
+  margin-top: 30px;
+}
+
+#project{
+  margin-bottom: 30px;
+  margin-top: 30px
+
+}
+
+css
+.carousel-image-small {
+  height: 300px;
+  width: 300px;
+}
+  #activity{
+    margin-top: 40px;
+
+    margin-bottom: 30px;
+  }
+  .card .card-body ol {
+   color: white; /* Set link text color to white */
+    font-size: 20px; /* Set font size */
+    padding-left: 0; /* Remove left padding for the list */
+    margin-left: 20px;
+    
+  }
+  
+  .card .card-body ol li a {
+    text-decoration: underline; /* Add underline to links */
+  }
+  
+  .contact-container {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 400px;
+}
+.contact-image {
+    max-width: 50%;
+    height: auto;
+    float: left;
+    padding: 1em;
+}
+.img_container{
     float: left;
 }
 
-.image-content {
-    width: 40%; /* Adjust the width of the image content */
-    float: right;
-}
+  
+@media (max-width: 767px) {
+    .description {
+      max-width: 100%; /* On smaller screens, allow the text to take full width */
+      padding-left: 0; /* Remove indentation */
+    }
+  }
