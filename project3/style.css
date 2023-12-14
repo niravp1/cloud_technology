@@ -51,6 +51,9 @@ body {
         padding-left: 20px; /* Create an indentation using padding */
 
 }
+    .p1
+{font-size: 20px;}
+
 .george {
     width: 60%;
     /* Align to the far right */
